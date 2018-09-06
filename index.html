@@ -9,6 +9,77 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>HELLO WORLD</h1>
+ 
+    <form>
+        <h1>Formulari de pagament</h1>
+        <p>Se requieren los campos siguientes<strong><abbr title="requerido"></abbr></strong>.</p>
+        <section>
+            <h2>Informació de contacte</h2>
+            <fieldset>
+                <legend>Títol</legend>
+                <ul></ul>
+                <li>
+                    <label for=Title_1>
+                        <input type=radio id=Title_1 name="Title_1" value="M.">
+                        Senyor
+                                        </label></li>
+                <li><label for=Title_1>
+                        <input type=radio id=Title_1 name="Title_1" value="M.">
+                        Senyora
+                    </fieldset>
+                                        </label></li>
+                                        <p>
+                                            <label for="nom">
+                                                <span>nom</span>
+                                                <input type="text"id="nom" name="username" required/>
+                                                <strong><abbr title="obligatori">*</abbr></strong>
+                                            </label>
+                                        </p>
+
+                                        <p>
+                                            <label for="mail">
+                                                <span>email</span>
+                                                <input type="email"id="mail" name="username" required/>
+                                                <strong><abbr title="obligatori">*</abbr></strong>
+                                            </label>                                                                                        </label></p>
+                                        </p>                                                                                            
+        </section>
+        <section>
+            <h2>Informació de pagament            </h2>
+            <p>
+                <label for="card">
+                    <span>Card type:</span>
+                    <select id="card" name="usercard">
+                    <option value="visa">visa</option>
+                    <option value="mc">Mastercard</option>
+                    <option value="amex">American Express</option>
+
+                    </select>
+
+                </label>
+            </p>
+            <p>
+                    <label for="number">
+                        <span>Card number:</span>
+                                           
+                            <input type="text"id="number" name="cardnumber" required/>
+                            <strong><abbr title="obligatori">*</abbr></strong>
+                    </label>
+                </p>
+                <p>
+                        <label for="date">
+                            <span>Expiration date:</span>
+                                                            <input type="text"id="date" name="expiration" required/>
+                                <strong><abbr title="obligatori">*</abbr></strong>
+                                <em>formated as mm/yy/</em>
+                                </label>
+                                </p>
+                                </section>
+
+<section>
+    <h2>informació de validació</h2>
+    <p><button>validar el pagament</button></p>
+</section>
+</form>
 </body>
 </html>
