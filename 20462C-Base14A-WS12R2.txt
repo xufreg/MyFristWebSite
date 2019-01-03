@@ -1,0 +1,1 @@
+This product uses the base virtual hard disk Base14A-WS12R2.vhd. Base14A-WS12R2.vhd can be downloaded from the MCT Download Center. You can find this .vhd file under Base Virtual Hard Disks in the Courses list.
